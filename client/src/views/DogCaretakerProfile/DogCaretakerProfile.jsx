@@ -1,6 +1,6 @@
 import InfoProfile from "../../components/ContainerInfoProfile/InfoProfile";
 import CarruselPhotosProfile from "../../components/ContainerInfoProfile/CarruselPhotosProfile";
-import PetsPreferenceCaretaker from "../../components/AboutCaretakerProfile/petsPreferenceCaretaker";
+import PetsPreferenceCaretaker from "../../components/AboutCaretakerProfile/PetsPreferenceCaretaker";
 import CaretakerInfoBox from "../../components/CaretakerInfoBox/CaretakerInfoBox";
 import CaretakerDateLocationInfo from "../../components/CaretakerInfoBox/CaretakerDateLocationInfo";
 

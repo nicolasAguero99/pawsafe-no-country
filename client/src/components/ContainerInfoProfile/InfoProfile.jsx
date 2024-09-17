@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { caretakerProfileMock } from "../../assets/other-assets/mocks/mockForProfile";// importacion que debes copiar Marcos
 import DropdownContainer from "../../components/DropdownContainerPrices/ContainerPrices";
-import ButtonSubmit from "../../components/Global/ButtonSubmit";
 import ContainerReviews from "../CardReviewHome/ContainerReviewProfile";
 
 const InfoProfile = () => {
