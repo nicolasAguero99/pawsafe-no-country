@@ -17,7 +17,6 @@ const PetsPreferenceCaretaker = () => {
     const [preferencePet, setPreferencePet] = useState("")
     const [petsCaretaker, setPetsCaretaker] = useState("")
 
-
     //Montamos el componente y obetenemos dinamicamente los tipos de perros que gusta cuidar el usuario y ,tambien las mascotas del cuidador, las funciones siempre toman como tal preferencePets de los datos del cuidador, pueden venir vacio preference pero nunca null , porque siempre se espera un array
     useEffect(() => {
         setPreferencePet(getPetBreedGenderPreference(preferensPets))
