@@ -12,7 +12,11 @@ import { errorHandler, notFound } from "./src/middlewares/errorHandler.js";
 const PORT = 8080;
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://pawsafe-no-country-t3go.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
