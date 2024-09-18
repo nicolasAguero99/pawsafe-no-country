@@ -7,7 +7,7 @@ export const API_PATH_BEST_REVIEWS = "api/bestReviews";
 
 // Frontend routes
 export const PATHS = {
-  home: '/home',
+  home: '/',
   login: '/login',
   register: '/register',
   userInfo: '/register/user-info',
