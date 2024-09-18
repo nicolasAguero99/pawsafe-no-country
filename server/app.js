@@ -13,9 +13,7 @@ const PORT = 8080;
 const app = express();
 
 app.use(cors({
-  origin: 'https://pawsafe-no-country-t3go.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+  origin: 'https://pawsafe-no-country-t3go.vercel.app'
 }));
 app.use(cookieParser());
 app.use(express.json());
