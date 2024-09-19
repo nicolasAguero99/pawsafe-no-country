@@ -12,6 +12,7 @@ export const PATHS = {
   register: '/register',
   userInfo: '/register/user-info',
   petsForm: '/register/pets-form',
+  searchCaretakers: '/search-caretakers',
 }
 
 // Backend routes
@@ -23,5 +24,5 @@ export const API_PATHS = {
   sendQuestion: `${API_PATH}/question`,
   register: `${API_PATH}/createuser`,
   login: `${API_PATH}/login`,
-  caretakers: `${API_PATH_V2}/carers`,
+  caretakers: `${API_PATH_V2}/carers/ratings`,
 }
